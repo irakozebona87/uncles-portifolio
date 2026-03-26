@@ -1,6 +1,6 @@
 import { useReveal } from "@/hooks/useReveal";
 import { stats } from "@/data/portfolio-data";
-import profilePhoto from "@/assets/profile-photo.jpg";
+import profilePhoto from "@/assets/profile-photo.png";
 
 export default function About() {
   const { ref, visible } = useReveal();
