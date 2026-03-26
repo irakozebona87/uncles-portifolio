@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import profilePhoto from "@/assets/profile-photo.jpg";
+import profilePhoto from "@/assets/profile-photo.png";
 
 export default function Hero() {
   const [counter, setCounter] = useState(0);
@@ -29,25 +29,12 @@ export default function Hero() {
           University IT &amp; Software Developer
         </div>
 
-        <div className="flex items-end gap-7 mb-8 flex-wrap">
+        <div className="mb-8">
           <h1 className="font-display text-[clamp(3.5rem,7vw,6.5rem)] font-bold leading-[0.92] tracking-tight text-foreground">
             Alex
             <br />
             <em className="font-light italic text-accent">Morgan</em>
           </h1>
-
-          {/* Ellipse photo */}
-          <div className="relative flex-shrink-0 mb-1.5" data-hover>
-            <img
-              className="w-[110px] h-[145px] object-cover object-top rounded-[55px] block border-[3px] border-background shadow-xl transition-transform duration-400 hover:scale-105"
-              src={profilePhoto}
-              alt="Alex Morgan"
-              width={110}
-              height={145}
-            />
-            <div className="absolute -inset-[7px] rounded-[62px] border-[1.5px] border-accent opacity-55 animate-ring-pulse" />
-            <div className="absolute -inset-[14px] rounded-[69px] border border-dashed border-accent opacity-20 animate-ring-pulse [animation-delay:0.8s]" />
-          </div>
         </div>
 
         <p className="text-sm leading-7 text-muted-foreground max-w-[400px] mb-12">
@@ -78,11 +65,9 @@ export default function Hero() {
       {/* Right — hero photo */}
       <div className="relative hidden lg:block overflow-hidden" data-hover>
         <img
-          className="w-full h-full object-cover object-top block hover:scale-[1.03] transition-transform duration-600"
+          className="w-full h-full object-cover object-center block hover:scale-[1.03] transition-transform duration-600"
           src={profilePhoto}
           alt="background"
-          width={800}
-          height={1000}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-background/20 to-transparent pointer-events-none" />
 

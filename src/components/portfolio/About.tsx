@@ -1,6 +1,6 @@
 import { useReveal } from "@/hooks/useReveal";
 import { stats } from "@/data/portfolio-data";
-import profilePhoto from "@/assets/profile-photo.jpg";
+import profilePhoto from "@/assets/profile-photo.png";
 
 export default function About() {
   const { ref, visible } = useReveal();
@@ -66,7 +66,7 @@ export default function About() {
       <div
         className={`relative transition-all duration-700 ease-out delay-200 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
       >
-        <div className="relative w-full aspect-[4/5] bg-card overflow-hidden" data-hover>
+        <div className="relative w-full aspect-[4/3] bg-card overflow-hidden" data-hover>
           <div className="absolute inset-0 z-10 pointer-events-none bg-gradient-to-b from-transparent via-transparent to-foreground/65" />
           <img
             className="w-full h-full object-cover object-top block"
