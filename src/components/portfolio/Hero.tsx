@@ -31,9 +31,9 @@ export default function Hero() {
 
         <div className="mb-8">
           <h1 className="font-display text-[clamp(3.5rem,7vw,6.5rem)] font-bold leading-[0.92] tracking-tight text-foreground">
-            Alex
+              Olivier
             <br />
-            <em className="font-light italic text-accent">Morgan</em>
+            <em className="font-light italic text-accent">UWIRINGIYE</em>
           </h1>
         </div>
 

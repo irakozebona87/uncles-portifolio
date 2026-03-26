@@ -1,6 +1,6 @@
 export const skills = [
   {
-    icon: "📚",
+   // icon: "📚",
     name: "Library Systems",
     bars: [
       { label: "Koha ILS", pct: 95 },
@@ -10,7 +10,7 @@ export const skills = [
     ],
   },
   {
-    icon: "💻",
+    //icon: "💻",
     name: "Development",
     bars: [
       { label: "Python / Django", pct: 92 },
@@ -20,7 +20,7 @@ export const skills = [
     ],
   },
   {
-    icon: "🗄️",
+    //icon: "🗄️",
     name: "Data & Infrastructure",
     bars: [
       { label: "MySQL / PostgreSQL", pct: 93 },
@@ -59,7 +59,7 @@ export const experience = [
   {
     date: "2020 — Present",
     title: "Senior Software Developer & IT Systems Lead",
-    company: "Meridian University — Central Library",
+    company: "ST LAWRENCE — Central Library",
     desc: "Lead developer for all library-facing software systems. Oversee a team of 3 junior developers, manage campus network infrastructure, and architect the next-gen LMS migration from monolith to microservices.",
   },
   {
@@ -70,8 +70,8 @@ export const experience = [
   },
   {
     date: "2016 — 2017",
-    title: "Junior IT Support Technician",
-    company: "Meridian University — IT Help Desk",
+    title: "SENIOR IT Support Technician",
+    company: "ST LAWARENCE University — IT Help Desk",
     desc: "Hardware and software support for 4,000 staff and students. First exposure to library network infrastructure and the university's legacy catalogue systems.",
   },
 ];
@@ -88,9 +88,9 @@ export const marqueeItems = [
 ];
 
 export const contactLinks = [
-  { label: "alex@meridianuni.edu", tag: "Email →" },
-  { label: "linkedin.com/in/alexmorgan-dev", tag: "LinkedIn →" },
-  { label: "github.com/alexmorgan-lib", tag: "GitHub →" },
+  { label: "olivieruwiringiye@gmail.com", tag: "Email →" },
+  { label: "OLIVIER UWIRINGIYE", tag: "LinkedIn →" },
+  { label: "OLIVIER UWIRINGIYE", tag: "GitHub →" },
 ];
 
 export const stats = [

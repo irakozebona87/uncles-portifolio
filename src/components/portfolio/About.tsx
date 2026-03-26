@@ -26,7 +26,7 @@ export default function About() {
         </h2>
         <div className="space-y-5 text-sm leading-7 text-muted-foreground">
           <p>
-            I'm a software developer and IT specialist embedded in a university
+   cd         I'm a software developer and IT specialist embedded in a university
             environment, focused exclusively on designing and maintaining library
             management systems that serve thousands of students and faculty daily.
           </p>
