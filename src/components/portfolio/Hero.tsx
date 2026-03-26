@@ -65,11 +65,9 @@ export default function Hero() {
       {/* Right — hero photo */}
       <div className="relative hidden lg:block overflow-hidden" data-hover>
         <img
-          className="w-full h-full object-cover object-top block hover:scale-[1.03] transition-transform duration-600"
+          className="w-full h-full object-cover object-center block hover:scale-[1.03] transition-transform duration-600"
           src={profilePhoto}
           alt="background"
-          width={800}
-          height={1000}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-background/20 to-transparent pointer-events-none" />
 
