@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import profilePhoto from "@/assets/profile-photo.jpg";
+import profilePhoto from "@/assets/profile-photo.png";
 
 export default function Hero() {
   const [counter, setCounter] = useState(0);
