@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="bg-foreground text-background px-6 md:px-12 py-10 flex flex-col md:flex-row justify-between items-center gap-5">
       <div className="font-heading font-extrabold text-sm">
-          OLIVIER UWIRINGIYE
+          OLIVIER UWIRANGIYE
 
       </div>
       <div className="flex gap-6">
@@ -20,7 +20,7 @@ export default function Footer() {
         ))}
       </div>
       <div className="text-[0.65rem] tracking-wider uppercase text-background/35">
-        © 2026 OLIVIER UWIRINGIYE— All rights reserved
+        © 2026 OLIVIER UWIRANGIYE— All rights reserved
       </div>
     </footer>
   );

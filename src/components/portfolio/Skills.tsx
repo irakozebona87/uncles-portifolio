@@ -7,7 +7,7 @@ interface SkillBar {
 }
 
 interface SkillData {
-  icon: string;
+  icon?: string;
   name: string;
   bars: SkillBar[];
 }
@@ -24,7 +24,7 @@ function SkillCategory({ data, delay }: { data: SkillData; delay: number }) {
       style={{ transitionDelay: `${delay}s` }}
     >
       <div className="absolute bottom-0 left-0 h-0.5 w-0 bg-accent group-hover:w-full transition-all duration-400 ease-out" />
-      <div className="text-2xl mb-4">{data.icon}</div>
+      {data.icon ? <div className="text-2xl mb-4">{data.icon}</div> : null}
       <div className="font-heading font-bold text-[0.8rem] tracking-wider uppercase text-background mb-5">
         {data.name}
       </div>

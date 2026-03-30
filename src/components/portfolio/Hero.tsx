@@ -33,7 +33,7 @@ export default function Hero() {
           <h1 className="font-display text-[clamp(3.5rem,7vw,6.5rem)] font-bold leading-[0.92] tracking-tight text-foreground">
               Olivier
             <br />
-            <em className="font-light italic text-accent">UWIRINGIYE</em>
+            <em className="font-light italic text-accent">UWIRANGIYE</em>
           </h1>
         </div>
 

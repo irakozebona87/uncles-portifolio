@@ -88,9 +88,9 @@ export const marqueeItems = [
 ];
 
 export const contactLinks = [
-  { label: "olivieruwiringiye@gmail.com", tag: "Email →" },
-  { label: "OLIVIER UWIRINGIYE", tag: "LinkedIn →" },
-  { label: "OLIVIER UWIRINGIYE", tag: "GitHub →" },
+  { label: "olivieruwirangiye@gmail.com", tag: "Email →" },
+  { label: "OLIVIER UWIRANGIYE", tag: "LinkedIn →" },
+  { label: "OLIVIER UWIRANGIYE", tag: "GitHub →" },
 ];
 
 export const stats = [
